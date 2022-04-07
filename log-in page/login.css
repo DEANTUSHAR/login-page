@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: url(christmas-lights-3834926__0.jpg);
+    background-size: cover;
+    
+}
+form.box {
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+   
+    background: rgba(0,0,0,0.4);
+}
+h1 {
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.box input[type="text"], .box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #dddddd;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    transition: 0.25px;
+    
+}
+.box input[type="text"]:focus, .box input[type="password"]:focus{
+width: 270px;
+color: whitesmoke;
+}
+
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #adf3f3;
+    padding: 14px 30px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 20px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.box input[type="submit"]:focus{
+    width: 200px;
+    color: rgba(0, 225, 255, 0.719);
+}
